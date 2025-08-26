@@ -1,0 +1,8 @@
+print("#" * 20)
+print("  BMI 계산 프로그램")
+print("#" * 20)
+h = float(input("키 : "))
+w = float(input("몸무게 : "))
+print("#" * 20)
+BMI = w / ((h / 100)**2)
+print(f"당신의 BMI 지수는 {BMI} 입니다.") 
